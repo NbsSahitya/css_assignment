@@ -39,7 +39,35 @@
      background-color: silver; /*Task13:-Give a Background Color to a div Element*/
   }
   #cat-photo-form{
-    background-color:green;
+    background-color:green;/*Task15:-Use an id Attribute to Style an Element*/
+  }
+  .injected-text {
+    margin-bottom: -25px;
+    text-align: center;
+  }
+
+  .box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+  }
+
+  .yellow-box {
+    background-color: yellow;
+    padding: 10px;
+  }
+
+  .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 20px;
+  }
+
+  .blue-box {
+    background-color: blue; /*Task16:-Adjust the Padding of an Element*/
+    color: #fff;
+    padding: 20px;
   }
       </style>
 </head>
@@ -76,5 +104,11 @@
                     <input type="text" placeholder="cat photo URL" required>
                     <button type="submit">Submit</button>
                   </form>
+                  <h5 class="injected-text">margin</h5>
+
+<div class="box yellow-box">
+  <h5 class="box red-box">padding</h5>
+  <h5 class="box blue-box">padding</h5>
+</div>
             </body>
 </html>
